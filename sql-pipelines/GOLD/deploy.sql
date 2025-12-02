@@ -2,11 +2,13 @@
 execute immediate from '../BRONZE/create_customers.sql';
 execute immediate from '../BRONZE/create_orders.sql';
 execute immediate from '../BRONZE/create_part.sql';
+execute immediate from '../BRONZE/create_region.sql'
 
 -- Deploy SILVER layer
 execute immediate from '../SILVER/create_customers_silver.sql';
 execute immediate from '../SILVER/create_orders_silver.sql';
 execute immediate from '../SILVER/create_part_silver.sql';
+execute immediate from '../SILVER/create_region_silver.sql'
 
 -- Deploy GOLD layer
 -- (add GOLD objects here when created)
