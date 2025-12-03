@@ -3,11 +3,13 @@ BEGIN
     execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/BRONZE/create_customers.sql;
     execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/BRONZE/create_orders.sql;
     execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/BRONZE/create_part.sql;
+    execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/BRONZE/create_region.sql;
     
     -- Deploy SILVER layer
     execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/SILVER/create_customers_silver.sql;
     execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/SILVER/create_orders_silver.sql;
     execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/SILVER/create_part_silver.sql;
+    execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/SILVER/create_region_silver.sql;
 
 END;
 
