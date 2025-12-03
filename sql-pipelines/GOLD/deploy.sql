@@ -11,5 +11,7 @@ BEGIN
 
 END;
 
+
 -- execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/GOLD/deploy.sql;
+
 
