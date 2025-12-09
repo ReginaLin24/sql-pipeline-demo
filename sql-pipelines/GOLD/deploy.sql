@@ -10,6 +10,5 @@
 
 
 
--- execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/GOLD/deploy.sql;RL_SQL_DEMORL_SQL_DEMO.SILVER.PART_SILVER
-
+-- execute immediate from @RL_SQL_DEMO.GOLD.RL_SQL_REPO/branches/main/sql-pipelines/GOLD/deploy.sql;
 
